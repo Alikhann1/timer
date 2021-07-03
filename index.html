@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="div0">
+        <div class="div1">
+            <h1 id="hr" class="h1">00</h1>
+             <h1 class="h2">HRS</h1>
+        </div><span>:</span>
+
+
+        <div class="div1">
+            <h1 id="min" class="h1">00</h1>
+             <h1 class="h2">MIN</h1>
+        </div><span>:</span>
+
+
+        <div class="div1">
+            <h1 id="sec" class="h1">00</h1>
+            <h1 class="h2">SEC</h1> <br>
+        </div><span>:</span>
+
+
+        <div class="div1">
+            <h1 id="msec" class="h1">00</h1>
+            <h1 class="h2">MSEC</h1> <br>
+        </div>
+        
+    </div>
+
+    <div class="div2">
+        <button id="stop" onclick="start(this);"><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+        <button  onclick="pause();"><i class="fa fa-pause-circle-o" aria-hidden="true"></i></button>
+        <button onclick="reset ()"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
